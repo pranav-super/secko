@@ -1,0 +1,26 @@
+[package]
+name = "secko"
+version = "0.1.0"
+edition = "2021"
+
+[patch.crates-io] #patch must be specified at root here
+ocaml-boxroot-sys = { path = "/home/prsu8368/kvstore/fixed_libraries/ocaml-boxroot/rust/ocaml-boxroot-sys/" } # fixed error on line 735 where action was invoked - added a NULL as the first parameter was apparently some self-referential pointer??? no idea if its even right but it compiled.
+
+[[bin]]
+name = "client"
+path = "crates/client/src/main.rs"
+
+[[bin]]
+name = "server"
+path = "crates/server/src/main.rs"
+
+[[bin]]
+name = "test"
+path = "crates/tests/src/main.rs"
+
+[lib]
+name = "messages"
+path = "crates/messages/src/lib.rs"
+
+[workspace]
+members=["crates/client", "crates/server", "crates/messages", "crates/tests"]

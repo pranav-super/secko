@@ -1,0 +1,50 @@
+(lang dune 3.6)
+(name secko_client)
+(sections (lib .) (libexec .) (bin ../../bin) (stublibs ../stublibs))
+(files
+ (lib
+  (META
+   dune-package
+   libsecko_client.a
+   opam
+   rust.ml
+   rust.mli
+   secko_client.a
+   secko_client.cma
+   secko_client.cmi
+   secko_client.cmt
+   secko_client.cmx
+   secko_client.cmxa
+   secko_client.ml
+   secko_client__Rust.cmi
+   secko_client__Rust.cmt
+   secko_client__Rust.cmti
+   secko_client__Rust.cmx))
+ (libexec (secko_client.cmxs))
+ (bin (test))
+ (stublibs (dllsecko_client.so)))
+(library
+ (name secko_client)
+ (kind normal)
+ (archives (byte secko_client.cma) (native secko_client.cmxa))
+ (plugins (byte secko_client.cma) (native secko_client.cmxs))
+ (foreign_archives (archives (for all) (files libsecko_client.a)))
+ (native_archives secko_client.a)
+ (main_module_name Secko_client)
+ (modes byte native)
+ (modules
+  (wrapped
+   (main_module_name Secko_client)
+   (modules
+    ((name Rust)
+     (obj_name secko_client__Rust)
+     (visibility public)
+     (impl)
+     (intf)))
+   (alias_module
+    (name Secko_client)
+    (obj_name secko_client)
+    (visibility public)
+    (kind alias)
+    (impl))
+   (wrapped true))))

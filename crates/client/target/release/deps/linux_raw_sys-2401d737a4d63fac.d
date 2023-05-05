@@ -1,0 +1,10 @@
+/home/prsu8368/kvstore/kvstore/crates/client/_build/default/src/../../../target/release/deps/linux_raw_sys-2401d737a4d63fac.rmeta: /home/prsu8368/.cargo/registry/src/github.com-1ecc6299db9ec823/linux-raw-sys-0.3.1/src/lib.rs /home/prsu8368/.cargo/registry/src/github.com-1ecc6299db9ec823/linux-raw-sys-0.3.1/src/x86_64/errno.rs /home/prsu8368/.cargo/registry/src/github.com-1ecc6299db9ec823/linux-raw-sys-0.3.1/src/x86_64/general.rs /home/prsu8368/.cargo/registry/src/github.com-1ecc6299db9ec823/linux-raw-sys-0.3.1/src/x86_64/ioctl.rs
+
+/home/prsu8368/kvstore/kvstore/crates/client/_build/default/src/../../../target/release/deps/liblinux_raw_sys-2401d737a4d63fac.rlib: /home/prsu8368/.cargo/registry/src/github.com-1ecc6299db9ec823/linux-raw-sys-0.3.1/src/lib.rs /home/prsu8368/.cargo/registry/src/github.com-1ecc6299db9ec823/linux-raw-sys-0.3.1/src/x86_64/errno.rs /home/prsu8368/.cargo/registry/src/github.com-1ecc6299db9ec823/linux-raw-sys-0.3.1/src/x86_64/general.rs /home/prsu8368/.cargo/registry/src/github.com-1ecc6299db9ec823/linux-raw-sys-0.3.1/src/x86_64/ioctl.rs
+
+/home/prsu8368/kvstore/kvstore/crates/client/_build/default/src/../../../target/release/deps/linux_raw_sys-2401d737a4d63fac.d: /home/prsu8368/.cargo/registry/src/github.com-1ecc6299db9ec823/linux-raw-sys-0.3.1/src/lib.rs /home/prsu8368/.cargo/registry/src/github.com-1ecc6299db9ec823/linux-raw-sys-0.3.1/src/x86_64/errno.rs /home/prsu8368/.cargo/registry/src/github.com-1ecc6299db9ec823/linux-raw-sys-0.3.1/src/x86_64/general.rs /home/prsu8368/.cargo/registry/src/github.com-1ecc6299db9ec823/linux-raw-sys-0.3.1/src/x86_64/ioctl.rs
+
+/home/prsu8368/.cargo/registry/src/github.com-1ecc6299db9ec823/linux-raw-sys-0.3.1/src/lib.rs:
+/home/prsu8368/.cargo/registry/src/github.com-1ecc6299db9ec823/linux-raw-sys-0.3.1/src/x86_64/errno.rs:
+/home/prsu8368/.cargo/registry/src/github.com-1ecc6299db9ec823/linux-raw-sys-0.3.1/src/x86_64/general.rs:
+/home/prsu8368/.cargo/registry/src/github.com-1ecc6299db9ec823/linux-raw-sys-0.3.1/src/x86_64/ioctl.rs:

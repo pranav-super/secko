@@ -1,0 +1,1 @@
+cargo:rerun-if-env-changed=OCAML_INTEROP_NO_CAML_STARTUP

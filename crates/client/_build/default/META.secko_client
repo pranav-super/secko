@@ -1,0 +1,6 @@
+description = ""
+requires = ""
+archive(byte) = "secko_client.cma"
+archive(native) = "secko_client.cmxa"
+plugin(byte) = "secko_client.cma"
+plugin(native) = "secko_client.cmxs"

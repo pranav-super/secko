@@ -1,0 +1,28 @@
+lib: [
+  "_build/install/default/lib/secko_client/META"
+  "_build/install/default/lib/secko_client/dune-package"
+  "_build/install/default/lib/secko_client/libsecko_client.a"
+  "_build/install/default/lib/secko_client/opam"
+  "_build/install/default/lib/secko_client/rust.ml"
+  "_build/install/default/lib/secko_client/rust.mli"
+  "_build/install/default/lib/secko_client/secko_client.a"
+  "_build/install/default/lib/secko_client/secko_client.cma"
+  "_build/install/default/lib/secko_client/secko_client.cmi"
+  "_build/install/default/lib/secko_client/secko_client.cmt"
+  "_build/install/default/lib/secko_client/secko_client.cmx"
+  "_build/install/default/lib/secko_client/secko_client.cmxa"
+  "_build/install/default/lib/secko_client/secko_client.ml"
+  "_build/install/default/lib/secko_client/secko_client__Rust.cmi"
+  "_build/install/default/lib/secko_client/secko_client__Rust.cmt"
+  "_build/install/default/lib/secko_client/secko_client__Rust.cmti"
+  "_build/install/default/lib/secko_client/secko_client__Rust.cmx"
+]
+libexec: [
+  "_build/install/default/lib/secko_client/secko_client.cmxs"
+]
+bin: [
+  "_build/install/default/bin/test"
+]
+stublibs: [
+  "_build/install/default/lib/stublibs/dllsecko_client.so"
+]

@@ -1,0 +1,8 @@
+(lang dune 3.6)
+(name secko_client)
+
+(generate_opam_files true)
+
+(package
+ (name secko_client)
+ (depends ocaml>=5.0.0 dune conf-rust))

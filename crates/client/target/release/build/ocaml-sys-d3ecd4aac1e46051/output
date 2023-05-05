@@ -1,0 +1,51 @@
+cargo:rerun-if-file-changed=sys/ocaml-sys.c
+cargo:rerun-if-env-changed=OCAMLOPT
+cargo:rerun-if-env-changed=OCAML_VERSION
+cargo:rerun-if-env-changed=OCAML_WHERE_PATH
+TARGET = Some("x86_64-unknown-linux-gnu")
+OPT_LEVEL = Some("3")
+HOST = Some("x86_64-unknown-linux-gnu")
+cargo:rerun-if-env-changed=CC_x86_64-unknown-linux-gnu
+CC_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CC_x86_64_unknown_linux_gnu
+CC_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-unknown-linux-gnu
+CFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_unknown_linux_gnu
+CFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+running: "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-static" "-I" "/home/prsu8368/.opam/5.0.0/lib/ocaml" "-Wall" "-Wextra" "-o" "/home/prsu8368/kvstore/kvstore/crates/client/_build/default/src/../../../target/release/build/ocaml-sys-d3ecd4aac1e46051/out/src/ocaml-sys.o" "-c" "src/ocaml-sys.c"
+exit status: 0
+cargo:rerun-if-env-changed=AR_x86_64-unknown-linux-gnu
+AR_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=AR_x86_64_unknown_linux_gnu
+AR_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_AR
+HOST_AR = None
+cargo:rerun-if-env-changed=AR
+AR = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64-unknown-linux-gnu
+ARFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64_unknown_linux_gnu
+ARFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_ARFLAGS
+HOST_ARFLAGS = None
+cargo:rerun-if-env-changed=ARFLAGS
+ARFLAGS = None
+running: "ar" "cq" "/home/prsu8368/kvstore/kvstore/crates/client/_build/default/src/../../../target/release/build/ocaml-sys-d3ecd4aac1e46051/out/libocaml-sys.a" "/home/prsu8368/kvstore/kvstore/crates/client/_build/default/src/../../../target/release/build/ocaml-sys-d3ecd4aac1e46051/out/src/ocaml-sys.o"
+exit status: 0
+running: "ar" "s" "/home/prsu8368/kvstore/kvstore/crates/client/_build/default/src/../../../target/release/build/ocaml-sys-d3ecd4aac1e46051/out/libocaml-sys.a"
+exit status: 0
+cargo:rustc-link-lib=static=ocaml-sys
+cargo:rustc-link-search=native=/home/prsu8368/kvstore/kvstore/crates/client/_build/default/src/../../../target/release/build/ocaml-sys-d3ecd4aac1e46051/out
+cargo:rustc-link-lib=static=ocaml-sys
